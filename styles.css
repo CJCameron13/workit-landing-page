@@ -1,0 +1,252 @@
+:root {
+    --dark-purple: #24053E;
+    --dark-grey: #584D62;
+    --bright-green: #44FFA1;
+    --ghost-white: #f6ebfe;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-left: 60vw;
+    padding-right: 60vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+#top-apply-link {
+    text-decoration: underline;
+    text-decoration-color: var(--bright-green);
+    text-decoration-thickness: 0.1rem;
+}
+
+#top-section {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    height: 65vh;
+    width: 200vw;
+    border-radius: 0% 0% 50% 50%;
+    margin-left: -50vw;
+    /* overflow: hidden; */
+    z-index: 2;
+    position: absolute;
+}
+
+#top-section-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    z-index: 3;
+}
+
+#top-section-header {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    width: 30rem;
+    text-align: center;
+}
+
+#tailored {
+    text-decoration: underline;
+    text-decoration-color: var(--bright-green);
+    text-decoration-thickness: 0.2rem;
+}
+
+.buttons {
+    background-color: var(--bright-green);
+    border-width: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+#learn-more {
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#big-phone {
+    position: absolute;
+    width: 35rem;
+    height: 22rem;
+    top: 22rem;
+    z-index: inherit;
+}
+
+.background-pattern {
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#top-left-bg-pattern {
+    left: 40vw;
+    height: 215px;
+    width: 270px;
+    top: 116px;
+}
+
+#top-right-bg-pattern {
+    right: 46vw;
+    height: 112px;
+    width: 141px;
+    top: 314px;
+}
+
+#middle-section {
+    background-color: var(--ghost-white);
+    color: var(--dark-purple);
+    height: 65vh;
+    width: 200vw;
+    border-radius: 0% 0% 50% 50%;
+    margin-left: -50vw;
+    /* overflow: hidden; */
+    position: absolute;
+    z-index: 1;
+    top: 60vh;
+}
+
+#middle-section-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin-top: 25vh;
+    margin-right: 1rem;
+}
+
+.number {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 4vh;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.section-two-header {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.section-two-description {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#bottom-section {
+    background-color: var(--white);
+    height: 65vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    top: 130vh;
+}
+
+#founder-photo {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 12vw;
+}
+
+#apply-box {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    position: absolute;
+    height: 20rem;
+    width: 38rem;
+    left: 28.5rem;
+    top: 7rem;
+    padding: 3rem;
+}
+
+#bottom-section-header {
+    font-family: "Fraunces", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+#founder-blurb {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 25px;
+}
+
+#apply-button {
+    height: 2.5rem;
+    width: 9rem;
+}
+
+#bottom-bg-pattern {
+    width: 180px;
+    height: 180px;
+    left: 60%;
+    top: 12rem;
+}
+
+#bottom-logo-container {
+    position: absolute;
+    top: 80%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-logo {
+    width: 70px;
+}
+
+#socials-group {
+    position: absolute;
+    top: 90%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo {
+    width: 1rem;
+}
+
+#fb-logo {
+    margin-right: 1rem;
+}
+
+#ig-logo {
+    margin-left: 1rem;
+}
