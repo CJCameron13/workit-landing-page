@@ -33,6 +33,11 @@ nav {
     text-decoration-thickness: 0.1rem;
 }
 
+#top-apply-link:hover {
+    color: var(--bright-green);
+    cursor: pointer;
+}
+
 #top-section {
     background-color: var(--dark-purple);
     color: var(--white);
