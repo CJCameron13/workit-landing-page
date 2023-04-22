@@ -263,3 +263,34 @@ nav {
 #ig-logo {
     margin-left: 1rem;
 }
+
+@media screen and (max-width: 900px) {
+    #middle-section {
+        height: 60rem;
+    }
+    
+    #middle-section-information {
+        flex-direction: column;
+        margin-top: 15rem;
+    }
+
+    .information-group {
+        width: 80vw;
+        margin-top: 1rem;
+    }
+
+    #bottom-section {
+        top: 95rem;
+    }
+
+    #founder-photo {
+        height: 300px;
+        width: 300px;
+        left: 7vw;
+    }
+
+    #apply-box {
+        width: 32rem;
+    }
+
+}
