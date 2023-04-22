@@ -277,6 +277,11 @@ nav {
     .information-group {
         width: 80vw;
         margin-top: 1rem;
+        align-items: flex-start;
+    }
+    
+    #section-two-description {
+        text-align: left;
     }
 
     #bottom-section {
