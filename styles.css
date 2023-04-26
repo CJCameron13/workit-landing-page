@@ -278,10 +278,23 @@ nav {
         width: 80vw;
         margin-top: 1rem;
         align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .number {
+        margin-bottom: 5px;
+    }
+
+    .section-two-header {
+        width: 80%;
+        margin-bottom: 5px;
     }
     
     #section-two-description {
         text-align: left;
+        width: 80%;
     }
 
     #bottom-section {
