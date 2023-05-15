@@ -317,3 +317,87 @@ nav {
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    #top-section-header {
+        font-size: 2.8rem;
+        width: 28rem;
+    }
+
+    #big-phone {
+        width: 22rem;
+        height: 15rem;
+        top: 26rem;
+    }
+
+    .background-pattern {
+        visibility: hidden;
+    }
+
+    .buttons {
+        font-size: 1.2rem;
+    }
+
+    #learn-more {
+        width: 10rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+
+    #middle-section {
+        height: 70rem;
+    }
+
+    #middle-section-information {
+        flex-direction: column;
+        margin-top: 12rem;
+    }
+
+    .information-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number {
+        margin-bottom: 1vh;
+    }
+
+    .section-two-description {
+        text-align: center;
+    }
+
+    #bottom-section {
+        height: 60rem;
+    }
+
+    #founder-photo {
+        margin-top: 8rem;
+    }
+
+    #apply-box {
+        top: 23rem;
+        left: 4vw;
+        width: 22rem;
+        height: 25rem;
+    }
+
+    #bottom-section-header {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    #founder-blurb {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #apply-button {
+        margin-left: 11vw;
+        width: 11rem;
+        height: 3rem;
+    }
+
+    #bottom-logo-container {
+        margin-top: 4vh;
+    }
+}
